@@ -1,0 +1,9 @@
+方法一：
+design → edit html → 按 ctrl+F 查找及删除以下语句 (记得先下载整个模板进行备份):
+
+<b:include name='quickedit'/>
+
+方法二：
+design → edit html → 在 <b:skin> 和 </b:skin> 之间任意地方插入以下代码
+
+.quickedit {display:none;}
