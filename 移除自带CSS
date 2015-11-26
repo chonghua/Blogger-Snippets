@@ -1,3 +1,11 @@
 &lt;style type=&quot;text/css&quot;&gt;
 &lt;!-- /*<b:skin><![CDATA[*/]]></b:skin>
-自己添加的css需要添加在此代码之后
+    <style type='text/css'>
+自己添加的css需要添加在此
+
+	
+	
+将	]]></b:skin> 改为 </style>
+
+
+源模板<b:skin>……</b:skin>之间的css也需要加入自定制css中。
