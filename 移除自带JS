@@ -1,3 +1,10 @@
 &lt;!--[if 0] &gt;</body>&lt;![endif]--&gt;
 
 使用上述代码替换掉</body>
+
+
+
+<head>替换为：
+&lt;!--<head>--&gt;&lt;head&gt;
+</head>替换为：
+&lt;/head&gt;&lt;!--</head>--&gt;
