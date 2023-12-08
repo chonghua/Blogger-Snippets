@@ -9,3 +9,12 @@
 
 
 源模板<b:skin>……</b:skin>之间的css也需要加入自定制css中。
+
+
+
+
+
+
+
+或者：
+<html b:css='false'  b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
